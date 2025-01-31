@@ -1,5 +1,5 @@
 # prn_sudan2024_project
-## This repository holds code relating to the Zooniverse/ Logistics Cluster: Sudan Road Access project.
+## Code relating to the Zooniverse/ Logistics Cluster: Sudan Road Access project.
 
 The **get_subject_info_MappingWadis.py** code will take the project subject CSV file from Zooniverse and split the metadata into columns in a readable format to be used in the next code. 
 
