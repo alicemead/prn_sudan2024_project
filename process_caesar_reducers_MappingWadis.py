@@ -534,7 +534,7 @@ def run_hdb_scan(point_data_split_x_y, point_data_clustered_file):
             print(f"Skipping group '{b_value}' (too small for clustering)")
             continue
 
-        clusterer = hdbscan.HDBSCAN(min_cluster_size=2,
+        clusterer = hdbscan.HDBSCAN(min_cluster_size=3,
                                     cluster_selection_epsilon=10,
                                     metric=distance)
         labels = clusterer.fit_predict(group[["x", "y"]])
